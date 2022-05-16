@@ -1,0 +1,28 @@
+/*
+   Template main style file
+*/
+
+
+/* Bootstrap Files */
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+/* OWL CARASOUL*/
+@import '../node_modules/owl.carousel/src/scss/owl.carousel.scss';
+@import '../node_modules/owl.carousel/src/scss/owl.theme.default.scss';
+
+
+// Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Nunito&display=swap');
+
+// Templates
+@import './include/veriable';
+@import './include/global';
+@import './include/header';
+@import './include/banner';
+@import './include/tech';
+@import './include/security';
+@import './include/footer';
+
+#banner {
+   background-image: url(../assets/backgroundimg1.jpg);
+}
